@@ -17,6 +17,8 @@
         color: white;
         padding: 2rem;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+         z-index: 1000;
+        position: sticky;
     
 }  
 nav{
@@ -26,6 +28,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 
 }
 
@@ -59,9 +62,12 @@ nav a:hover{
     font-weight: 1rem;
     font-size:2rem;
 }
-.hero-cotainer h2{
-    font-size:3rem;
+
+.hero-cotainer h1{
+    font-size:4rem;
     margin-bottom: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 .hero-cotainer p{
     font-size: 1.5rem;
@@ -70,11 +76,14 @@ nav a:hover{
 .cta-button{
     background-color: blueviolet;
     color: #ffffff;
+    display: inline-block;
+    border-radius: 50px;
     padding: 1rem 1rem;
-    font-size: 1.2rem; 
-    border: none;
-    border-radius: 5px ;
+    font-size: 1rem; 
+    font-weight: 800;
+    border:none;
     cursor: pointer;
+    align-content: center;
     transition: background-color 0.3s ease-in-out;
 }
 .cta-button:hover{
